@@ -17,7 +17,7 @@
 
 .home {
   display: flex;
-  background-color: plum;
+  background-color: purple;
   padding-bottom: 20px;
   justify-content: center;
   margin: 2rem;
@@ -25,14 +25,15 @@
 
 .home .text {
   display: flex;
-  background-color: wheat;
+  background-color: yellow;
+  color: black;
   padding: 15px;
   font-size: 20px;
   margin-top: 2rem;
 }
 
 body {
-  background-color: lightsalmon;
+  background-color: chartreuse;
 }
 
 .con {
@@ -51,4 +52,8 @@ exp {
   background-color: lightslategray;
   margin: 32px;
   padding-bottom: 2rem;
+}
+
+li a:hover {
+  background-color: wheat;
 }
